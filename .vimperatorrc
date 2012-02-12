@@ -1,1 +1,12 @@
-/cygdrive/c/Users/GAMU/.vimperatorrc
+" .vimperatorrc 0.1.0
+" last update: 2012/02/12
+
+" set pattern
+set nextpattern=(下|后)一?(页|頁|章|篇|张),\bnext|more,^>$,^(>>|»)$,^(>|»),(>|»)$
+set previouspattern=(上|前)一?(页|頁|章|篇|张),\bprev|previous\b,^<$,^(<<|«)$,^(<|«),(<|«)$
+
+" set map
+map <S-j> 5<C-e>
+map <S-k> 5<C-y>
+map <S-h> gT
+map <S-l> gt
