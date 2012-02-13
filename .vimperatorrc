@@ -3,7 +3,7 @@
 
 " set editor
 set editor=mintty\ -e\ vim
-"set editor=konsole\ -e\ vim
+"set editor=konsole\ -e\ $EDITOR
 
 " set pattern
 set nextpattern=(下|后)一?(页|頁|章|篇|张),\bnext|more,^>$,^(>>|»)$,^(>|»),(>|»)$
