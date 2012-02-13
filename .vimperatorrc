@@ -1,5 +1,9 @@
 " .vimperatorrc 0.1.0
-" last update: 2012/02/12
+" latest update: 2012/02/13
+
+" set editor
+set editor=mintty\ -e\ vim
+"set editor=konsole\ -e\ vim
 
 " set pattern
 set nextpattern=(下|后)一?(页|頁|章|篇|张),\bnext|more,^>$,^(>>|»)$,^(>|»),(>|»)$
